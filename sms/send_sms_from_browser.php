@@ -7,7 +7,7 @@ Message:<br>
 </form> 
 
 <?php
-    require 'vendor/autoload.php';
+    require '../vendor/autoload.php';
     use Plivo\RestAPI;
     $to = $_POST['To'];
     $from = $_POST['From'];

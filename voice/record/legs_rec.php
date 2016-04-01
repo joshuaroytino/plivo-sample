@@ -1,5 +1,5 @@
 <?php
-    require 'vendor/autoload.php';
+    require '../../vendor/autoload.php';
     use Plivo\Response;
 
     # A call is made to the plivo number. 
@@ -42,7 +42,7 @@
 <!--dial_outbound.php-->
 
 <?php
-    require 'vendor/autoload.php';
+    require '../../vendor/autoload.php';
     use Plivo\RestAPI;
 
     # The Callback URL of Dial will make a request to the Record API which will record only the B Leg

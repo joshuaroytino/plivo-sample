@@ -1,5 +1,5 @@
 <?php
-    require 'vendor/autoload.php';
+    require '../vendor/autoload.php';
     use Plivo\Response;
 
     // Feth the from_number from the URL

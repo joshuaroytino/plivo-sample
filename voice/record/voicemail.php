@@ -1,5 +1,5 @@
 <?php
-    require 'vendor/autoload.php';
+    require '../../vendor/autoload.php';
     use Plivo\Response;
 
     # Generate a Record XML and ask the caller to leave a message

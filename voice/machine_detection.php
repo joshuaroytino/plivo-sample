@@ -1,6 +1,6 @@
 <!-- make_call.php-->
 <?php
-    require 'vendor/autoload.php';
+    require '../vendor/autoload.php';
     use Plivo\RestAPI;
 
     $auth_id = "Your AUTH_ID";
@@ -53,7 +53,7 @@
 <!-- detect.php-->
 
 <?php
-    require 'vendor/autoload.php';
+    require '../vendor/autoload.php';
     use Plivo\Response;
 
     $r = new Response();

@@ -1,5 +1,5 @@
 <?php
-    require 'vendor/autoload.php';
+    require '../vendor/autoload.php';
     use Plivo\Response;
 
     $r = new Response(); 
@@ -22,7 +22,7 @@
 <!--connect.php-->
 
 <?php   
-    require 'vendor/autoload.php';
+    require '../vendor/autoload.php';
     use Plivo\Response;
 
     $r = new Response(); 

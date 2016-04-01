@@ -1,5 +1,5 @@
 <?php
-    require 'vendor/autoload.php';
+    require '../../vendor/autoload.php';
     use Plivo\Response;
  
     $r = new Response();
@@ -31,7 +31,7 @@
 <!--recording_action.php-->
 
 <?php
-    require 'vendor/autoload.php';
+    require '../../vendor/autoload.php';
     use Plivo\RestAPI;
 
     $digit = $_REQUEST['Digits'];

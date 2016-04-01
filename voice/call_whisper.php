@@ -1,5 +1,5 @@
 <?php
-    require 'vendor/autoload.php';
+    require '../vendor/autoload.php';
     use Plivo\Response;
 
     $r = new Response(); 
@@ -25,7 +25,7 @@
 
 <!-- confirm_sound.php-->
 <?php   
-    require 'vendor/autoload.php';
+    require '../vendor/autoload.php';
     use Plivo\Response;
 
     $r = new Response(); 

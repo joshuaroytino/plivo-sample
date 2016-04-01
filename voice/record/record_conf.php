@@ -1,5 +1,5 @@
 <?php
-    require 'vendor/autoload.php';
+    require '../../vendor/autoload.php';
     use Plivo\Response;
 
     # Generates a Conference XML
@@ -22,7 +22,7 @@
 <!--conf_callback.php-->
 
 <?php
-    require 'vendor/autoload.php';
+    require '../../vendor/autoload.php';
     use Plivo\RestAPI;
 
     # Record API is called in the callback URL to record the conference

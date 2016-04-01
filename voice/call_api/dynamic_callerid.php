@@ -1,5 +1,5 @@
 <?php
-    require 'vendor/autoload.php';
+    require '../../vendor/autoload.php';
     use Plivo\Response;
 
     # Set te caller ID using Dial XML
@@ -29,7 +29,7 @@ Sample successful output
 ?>
 
 <?php
-    require 'vendor/autoload.php';
+    require '../../vendor/autoload.php';
     use Plivo\RestAPI;
     # Set the caller ID using Call API
 
